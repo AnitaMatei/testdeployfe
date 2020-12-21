@@ -1,0 +1,27 @@
+{
+    "name": "lectia-7",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack serve",
+        "build": "webpack --config webpack.prod.js"
+    },
+    "author": "anita matei",
+    "license": "ISC",
+    "dependencies": {
+        "@vaadin/router": "^1.7.2",
+        "axios": "^0.21.0",
+        "copy-webpack-plugin": "^7.0.0",
+        "lit-element": "^2.4.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.15.0",
+        "html-webpack-plugin": "^4.5.0",
+        "webpack": "^5.10.0",
+        "webpack-cli": "^4.2.0",
+        "webpack-dev-server": "^3.11.0",
+        "webpack-merge": "^5.5.0"
+    }
+}
